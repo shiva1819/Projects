@@ -1,0 +1,11 @@
+#landing{
+    background: url(../images/bg1.jpg) no-repeat fixed bottom;
+    height: 100vh;
+    background-size: cover;
+}
+.bg_fff{
+    background: #fff;
+}
+.fff{
+    color: #fff;
+}
