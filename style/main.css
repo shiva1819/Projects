@@ -12,6 +12,9 @@
 .fff{
     color: #fff;
 }
+span.fff{
+    color: #fff;
+}
 nav li a{ color: #fff; }
 nav li a:hover{ color: #2f7392; }
 .a10{ font-size: 48px; font-weight: 900; font-family: 'Muli', sans-serif; color: #46b1dccf; text-shadow: 1px 2px 5px #000;}
@@ -19,38 +22,37 @@ nav li a:hover{ color: #2f7392; }
 	font-size: 20px;
 }
 .myself{
-	width: 600px;
-	text-align: center;
-	padding: 50px;
 	position: relative;
 	font-family: 'Muli', sans-serif;
 	margin:150px auto;
 	border-top: 5px solid #fff;
 	border-left: 5px solid #fff;
 	border-right: 5px solid #fff;
+	padding: 50px;
+	color: #fff;
 }
 #socialMenu{
-	width: 300px;
+	width: 54.74452554744526%; /*300px;*/
 	position: absolute;
-	left: 145px;
+	left: 22%;
 	bottom: -30px;
 }
 #socialMenu:before{
 	content: "";
-	width: 160px;
+	width: 50%;
 	height: 5px;
 	background-color: #fff;
 	position: absolute;
-	left: -145px;
+	left: -125px;
 	top: 15px;
 }
 #socialMenu:after{
 	content: "";
-	width: 160px;
+	width: 50%;
 	height: 5px;
 	background-color: #fff;
 	position: absolute;
-	right: -150px;
+	right: -140px;
 	top: 15px;
 }
 .brr{
@@ -63,3 +65,11 @@ nav li a:hover{ color: #2f7392; }
 	margin-left: 10px;
 }
 .fs18{font-size: 20px;}
+.pad30{
+	padding: 30px;
+}
+#aboutSec{
+	height: 100vh;
+	background:url(../images/bg2.jpg) no-repeat fixed;
+	background-size: cover;
+}

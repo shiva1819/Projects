@@ -16,7 +16,7 @@
 <body>
     <article id="landing">
         <header id="main_headers">
-            <nav id="mainNav" class="navbar navbar-fixed-top">
+            <nav id="mainNav" class="navbar">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed btn-defailt" data-toggle="collapse" data-target="#mainNavMenu">
@@ -29,30 +29,32 @@
                     <div class="collapse navbar-collapse" id="mainNavMenu">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="active">
-                                <a href="#"> Home </a>
+                                <a href="#"> <span class="glyphicon glyphicon-home"></span> &nbsp  Home </a>
                             </li>  
                             <li class="">
-                                <a href="#aboutSec"> About </a>
+                                <a href="#about"><span class="glyphicon glyphicon-user"></span> &nbsp About </a>
                             </li>  
                             <li class="">
-                                <a href="#"> Portfolio </a>
+                                <a href="#"><span class="glyphicon glyphicon-briefcase"></span> &nbsp Portfolio </a>
                             </li>  
                             <li>
-                                <a href="#"> Contact </a>
+                                <a href="#"><span class="glyphicon glyphicon-phone"></span> &nbsp Contact </a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
-        <section id="HomeSec" class="container">
-        	<div class="row">
-        		<div class="col-md-6 col-md-offset-3 text-center myself">
-					 <div class="h1 fff a10"> Aluri Shiva Prasad </div>
-					 <div class="h4"> UI Developer</div>
-
-					 <ul class="list-unstyled list-inline" id="socialMenu">
-                            <li class="brr">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                <section class="Home-content">
+                    <div class="myself">
+                        <div class="a10">Shiva Prasad Aluri</div>
+                        <br>
+                        <span class="fs20 fff"> UI Developer. </span>
+                        <ul class="list-unstyled list-inline" id="socialMenu">
+                            <li class="brr fb">
                                <a href="#"><i class="fa fa-facebook fs18" aria-hidden="true"></i></a>
                             </li>
                             <li class="brr">
@@ -65,13 +67,14 @@
                                <a href="#"><i class="fa fa-linkedin fs18" aria-hidden="true"></i></a>
                             </li>
                         </ul>
-        		</div>
-
-        	</div>
-        </section>
+                    </div>
+                </section>
+                </div>
+            </div>
+        </div>
     </article>
-    <article id="aboutSec" class="container-fluid">
-    	<span class="h1"> About </span>
-    </article>
+    <section id="about" class="container">
+        <div class="jumbotron"> DEMO </div>
+    </section>
 </body>
 </html>
