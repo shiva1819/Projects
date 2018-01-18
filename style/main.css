@@ -1,5 +1,6 @@
 *{
 	font-family: 'Encode Sans Expanded', sans-serif;
+	transition: 0.5s;
 }
 #landing{
     background: url(../images/bg1.jpg) no-repeat fixed bottom;
@@ -72,4 +73,48 @@ nav li a:hover{ color: #2f7392; }
 	height: 100vh;
 	background:url(../images/bg2.jpg) no-repeat fixed;
 	background-size: cover;
+	padding-top: 50px;
+	color: #fff;
+	font-family: 'Muli', sans-serif;
+}
+#aboutContent{
+	margin-top: 50px;
+}
+.photo{
+	width: 250px;
+	height: 250px;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	background-color: rgba(125,125,125,0.6); 
+	background: url(../images/photo.jpg) no-repeat 35% 50%;
+	background-size: cover;
+	    margin-right: 217px;
+    margin-top: -35px;
+}
+#aboutText{
+	min-height: 450px;
+	/*border: 1px solid #fff;*/
+	border-radius: 5px;
+	margin: 0px;
+	padding: 0px;
+	/*padding-top: 20px;*/
+}
+#aboutText ul li{
+	background-color: rgba(27,56,90,0.8);
+	border:0px;
+	border-bottom: 1px solid;
+}
+#skills{
+	padding-top: 50px;
+	background-color: rgba(85, 101, 115, 0.5);
+}
+#skillsContent{
+	/*border: 5px double #ccc;*/
+	height: 100vh;
+	background-color: rgba(255,255,255,.15);
+	padding: 0px 55px 0px 55px;
+	box-sizing: border-box;
+}
+#experience{
+	height: 100vh;
 }
