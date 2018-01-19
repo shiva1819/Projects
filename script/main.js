@@ -1,3 +1,4 @@
+
 $(window).scroll(function() {
     if ($(this).scrollTop() > 75) { // this refers to window
     	$('#mainNav').css({"background":"rgba(36, 73, 117,.9)"});
@@ -9,3 +10,9 @@ $(window).scroll(function() {
     	$("#changeNav").addClass('container');  	
     }
 });
+
+$('#mainNavMenu ul li').click(function(){
+	$('#mainNavMenu ul li').removeClass('active');
+	$(this).addClass('active');
+})
+
