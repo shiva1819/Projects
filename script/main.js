@@ -12,7 +12,12 @@ $(window).scroll(function() {
 });
 
 $('#mainNavMenu ul li').click(function(){
-	$('#mainNavMenu ul li').removeClass('active');
-	$(this).addClass('active');
-})
+    $('#mainNavMenu ul li').removeClass('active');
+    $(this).addClass('active');
+    var link_details = $(this).children('a').attr('href');
+        // console.log($(link_details).offset().top);
+        $('html, body').animate({ scrollTop: $(link_details).offset().top});
+
+});
+
 

@@ -15,3 +15,57 @@
 .mT100{
 	margin-top:100px;
 }
+.mL25{
+	margin-left: 25px;
+}
+.mL50{
+	margin-left: 25px;
+}
+.mL75{
+	margin-left: 25px;
+}
+.nM{
+	margin: 0px !important;
+}
+
+/* Fonts */
+.fs16{
+	font-size: 16px !important;
+}
+
+/* padding */
+.pT50{
+	padding-top: 50px;
+}
+.pd50{
+	padding: 50px;
+}
+.pd25{
+	padding:25px;
+	box-sizing: border-box; 
+}
+.pd15{
+	padding:15px;
+	box-sizing: border-box; 
+}
+.noPad{
+	padding: 0px !important;
+}
+
+/* background color */
+.bgccc{
+	background-color: rgba(36,36,36,0.8);
+}
+
+/* no border */
+.noBold{
+	font-weight: 100 !important	;
+}
+
+/* box shadow */
+
+/* borders */
+
+.brdrBtm1{
+	border-bottom: 1px solid #534c59;
+}

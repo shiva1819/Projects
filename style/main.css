@@ -2,6 +2,9 @@
 	font-family: 'Encode Sans Expanded', sans-serif;
 	transition: 0.5s;
 }
+body{
+	font-size: 16px !important;
+}
 #landing{
     background: url(../images/bg1.jpg) no-repeat fixed bottom;
     height: 100vh;
@@ -70,13 +73,14 @@ nav li a:hover{ color: #2f7392; }
 	padding: 30px;
 }
 #aboutSec{
-	height: 100vh;
+	min-height: 100vh;
 	background:url(../images/bg2_1.jpg) no-repeat fixed;
 	background-size: cover;
 	padding-top: 50px;
 	color: #fff;
 	padding-left: 55px; 
 	padding-right: 55px;
+	padding-bottom: 55px;
 	font-family: 'Muli', sans-serif;
 	box-sizing: border-box;
 }
@@ -102,8 +106,10 @@ nav li a:hover{ color: #2f7392; }
 }
 #skills{
 	padding-top: 50px;
-	height: 100vh;
-	background-image: url(../images/bg3.jpg);
+	min-height: 100vh;
+	padding-bottom: 100px;
+	box-sizing: border-box;
+	background: url(../images/bg3.jpg) no-repeat fixed;
 }
 #skillsContent{
 	/*background-color: rgba(255,255,255,.15);*/
@@ -123,5 +129,61 @@ nav li a:hover{ color: #2f7392; }
     text-align: center;
 }
 #experience{
+	background: url(../images/bg4.jpg) no-repeat fixed;
+	min-height: 100vh;
+	box-sizing: border-box;
+}
+#abtmetxt{
+	/*transform: skewY(-5deg);*/
+	/*background-color: rgba(120,120,120,0.4);*/
+	padding: 25px;
+	box-sizing: border-box;
+}
+#abtmetxt p{
+	padding: 15px 0px 15px 0px;
+	border-bottom: 1px solid #534c59;
+}
+a.btn-cv{
+	background-color: rgba(100,100,100,0.5);
+	padding: 10px 20px;
+	color: #fff;
+}
+#lineMod{
+	position: relative;
+}
+#lineMod:after{
+	content: "";
+	position: absolute;
+	width: 1px;
+	height: 350px;
+	background-color: #ccc;
+	left: 50%;
+	top: 0px;
+}
+#exp_head{
+	width: 20%;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 1px #fff;
+    text-align: center;
+}
+#portfolioSec{
 	height: 100vh;
+}
+#port_head{
+	width: 20%;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 1px #fff;
+    text-align: center;
+}
+#contactSec{
+	height: 100vh;
+}
+#contact_head{
+	width: 20%;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 1px #fff;
+    text-align: center;	
+}
+.active{
+	background-color: #5b85af;
 }

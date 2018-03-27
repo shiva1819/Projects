@@ -1,0 +1,10 @@
+<p>I am experienced UI Designer & UI Developer and my focus is on writing on clean, elegant and efficient code.</p>
+                    <p>
+                        Extensive knowledge of current web standards, HTML5 and CSS3, JS, Jquery, JSON, AJAX,  along with developing front end with Cross browser compatibility.
+                    </p>
+                    <p>
+                        Having strong experience in responsive website design for Mobiles, Tablets and Desktops using CSS media queries & Bootstrap 3.x. 
+                    </p>
+                    <p>
+                        Working with server side frame work Nodejs.
+                    </p>   
